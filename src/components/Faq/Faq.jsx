@@ -1,5 +1,5 @@
 import { faqData, faqDescription } from "../../data/data";
-import SectionHeading from "../common/sectionheading/SectionHeading";
+import SectionHeading from "../common/sectionHeading/SectionHeading";
 import Accordion from "../common/accordion/Accordion";
 
 const Faq = () => {

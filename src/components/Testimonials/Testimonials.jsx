@@ -1,9 +1,7 @@
 import { testimonials } from "../../data/data";
-// import Previous from "../common/carousel/Previous";
-// import Next from "../common/carousel/Next";
 import TestimonialsCard from "../common/cards/TestimonialsCard";
 import Carousel from "../common/carousel/Carousel";
-import SectionHeading from "../common/sectionheading/SectionHeading";
+import SectionHeading from "../common/sectionHeading/SectionHeading";
 
 const Testimonials = () => {
   return (

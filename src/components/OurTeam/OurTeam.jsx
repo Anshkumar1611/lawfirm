@@ -1,6 +1,6 @@
 import { teams } from "../../data/data";
 import TeamCard from "../common/cards/TeamCard";
-import SectionHeading from "../common/sectionheading/SectionHeading";
+import SectionHeading from "../common/sectionHeading/SectionHeading";
 
 const OurTeam = () => {
   return (

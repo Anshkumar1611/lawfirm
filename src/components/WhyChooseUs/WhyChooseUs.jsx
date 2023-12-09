@@ -1,7 +1,7 @@
 import { whyUsData } from "../../data/data";
 import IntroSection from "../IntroSection/IntroSection";
 import WhyUs from "../common/cards/WhyUs";
-import SectionHeading from "../common/sectionheading/SectionHeading";
+import SectionHeading from "../common/sectionHeading/SectionHeading";
 
 const WhyChooseUs = () => {
   return (

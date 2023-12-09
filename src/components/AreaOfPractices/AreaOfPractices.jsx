@@ -6,7 +6,7 @@ import {
   partnerShipLaw,
   realEstateLaw,
 } from "../../assets";
-import SectionHeading from "../common/sectionheading/SectionHeading";
+import SectionHeading from "../common/sectionHeading/SectionHeading";
 import WhyUs from "../common/texts/WhyUs";
 
 const AreaOfPractices = () => {
