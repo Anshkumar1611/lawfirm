@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import PropTypes from "prop-types";
 
 const Contact = ({ title }) => {
   return (
@@ -6,6 +6,9 @@ const Contact = ({ title }) => {
       {title}
     </button>
   );
+};
+Contact.propTypes = {
+  title: PropTypes.string,
 };
 
 export default Contact;
