@@ -1,7 +1,7 @@
 import { logo } from "../../assets";
 import { navLinks } from "../../data/data";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Contact from "../common/buttons/contact";
+import Contact from "../common/buttons/Contact";
 import { useState } from "react";
 import { IoMdCloseCircle } from "react-icons/io";
 
