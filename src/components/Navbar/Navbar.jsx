@@ -56,7 +56,9 @@ const Navbar = () => {
                     className="px-3 cursor-pointer text-lg font-semibold text-gray hover:text-secondary "
                     key={navLink.id}
                   >
-                    <a href={navLink.url}>{navLink.name}</a>
+                    <a href={navLink.url} onClick={handleToggle}>
+                      {navLink.name}
+                    </a>
                   </li>
                 );
               })}
