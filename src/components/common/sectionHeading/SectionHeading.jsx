@@ -5,6 +5,6 @@ const SectionHeading = ({ heading }) => {
 };
 
 SectionHeading.propTypes = {
-  heading: PropTypes.string.isRequired,
+  heading: PropTypes.string,
 };
 export default SectionHeading;
