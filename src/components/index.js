@@ -1,0 +1,10 @@
+export { default as Navbar } from "../components/Navbar/Navbar";
+export { default as HeroSection } from "../components/HeroSection/HeroSection";
+export { default as IntroSection } from "./IntroSection/IntroSection";
+export { default as WhyChooseUs } from "../components/WhyChooseUs/WhyChooseUs";
+export { default as AreaOfPractices } from "../components/AreaOfPractices/AreaOfPractices";
+export { default as Testimonials } from "../components/Testimonials/Testimonials";
+export { default as OurTeam } from "../components/OurTeam/OurTeam";
+export { default as Faq } from "../components/Faq/Faq";
+export { default as Newsletter } from "../components/Newsletter/Newsletter";
+export { default as Footer } from "../components/Footer/Footer";

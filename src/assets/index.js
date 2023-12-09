@@ -1,0 +1,18 @@
+export { default as logo } from "./Logo/logo.svg";
+export { default as businessLaw } from "./AreaOfPractices/businessLaw.svg";
+export { default as businessLaw2 } from "./AreaOfPractices/businessLaw2.svg";
+export { default as elderAbuse } from "./AreaOfPractices/elderAbuse.svg";
+export { default as landLordDisputes } from "./AreaOfPractices/landLordDisputes.svg";
+export { default as partnerShipLaw } from "./AreaOfPractices/partnerShipLaw.svg";
+export { default as realEstateLaw } from "./AreaOfPractices/realEstateLaw.svg";
+export { default as heroSection } from "./HeroSection/heroSection.svg";
+export { default as team1 } from "./OurTeam/team1.svg";
+export { default as team2 } from "./OurTeam/team2.svg";
+export { default as team3 } from "./OurTeam/team3.svg";
+export { default as team4 } from "./OurTeam/team4.svg";
+export { default as team5 } from "./OurTeam/team5.svg";
+export { default as team6 } from "./OurTeam/team6.svg";
+export { default as testimonial1 } from "./Testimonials/testimonial1.svg";
+export { default as testimonial2 } from "./Testimonials/testimonial2.svg";
+export { default as testimonial3 } from "./Testimonials/testimonial3.svg";
+export { default as gift } from "./WhyChooseUs/Gift 1.svg";
