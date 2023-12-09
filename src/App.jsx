@@ -15,10 +15,9 @@ const App = () => {
     <div className="bg-primary text-white font-inter">
       <Navbar />
       <HeroSection />
-      <div className="px-8 md:px-16 lg:px-36 py-8 ">
+      <div className="px-8 md:px-16 lg:px-36 py-2 md:py-4 lg:py-8 ">
         <WhyChooseUs />
         <AreaOfPractices />
-        
         <Testimonials />
         <OurTeam />
         <Faq />

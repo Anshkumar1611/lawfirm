@@ -16,7 +16,7 @@ const footerIcons = [
 const Footer = () => {
   return (
     <footer className="bg-black px-8 md:px-16 lg:px-36 lg:h-80">
-      <div className="flex flex-col justify-between gap-8 py-8 md:py-24 h-full">
+      <div className="flex flex-col justify-between gap-8 py-8 md:py-16 lg:py-24 h-full">
         <div className="md:flex md:flex-row md:justify-between flex flex-col gap-4">
           <img src={logo} alt="logo" className="w-fit" />
           <ul className="flex flex-col gap-2 md:flex-row md:justify-between md:items-center lg:basis-2/5">

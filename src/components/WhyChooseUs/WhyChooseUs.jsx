@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
       <div className="text-center">
         <SectionHeading heading="Why Choose Us?" />
       </div>
-      <div className="flex flex-wrap justify-between gap-8 py-24">
+      <div className="flex flex-wrap justify-between gap-8 py-8 md:py-16 lg:py-24">
         {whyUsData.map((data) => (
           <WhyUs data={data} key={data.id} />
         ))}

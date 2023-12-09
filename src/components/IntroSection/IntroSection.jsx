@@ -1,6 +1,6 @@
 const IntroSection = () => {
   return (
-    <section className="flex flex-col gap-8 md:flex md:flex-row justify-between items-center my-28">
+    <section className="flex flex-col gap-8 md:flex md:flex-row justify-between items-center my-8 md:my-16 lg:my-28">
       <div className=" font-semibold text-5xl basis-1/3 leading-relaxed">
         Let’s Introduce Ourself
       </div>

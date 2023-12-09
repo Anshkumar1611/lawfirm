@@ -16,7 +16,7 @@ const SlidePreviousButton = () => {
     <>
       {!isBeginning && (
         <button
-          className="w-20 h-20 bg-white rounded-full flex justify-center items-center text-2xl text-primary absolute top-32 right-24 z-10"
+          className="w-20 h-20 bg-white rounded-full flex justify-center items-center text-2xl text-primary lg:absolute lg:top-32 lg:right-24 z-10"
           onClick={() => swiper.slidePrev()}
         >
           <GrLinkPrevious />

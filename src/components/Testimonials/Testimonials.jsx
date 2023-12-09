@@ -11,9 +11,8 @@ const Testimonials = () => {
           <SectionHeading heading="What says our happy Clients" />
         </div>
         <div className="basis-1/3"></div>
-        <div className="flex gap-4"></div>
       </div>
-      <div className="py-24">
+      <div className="py-8 md:py-16 lg:py-24">
         <Carousel
           data={testimonials}
           renderComponent={(testimonials) => (

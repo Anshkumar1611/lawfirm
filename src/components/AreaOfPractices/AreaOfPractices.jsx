@@ -15,7 +15,7 @@ const AreaOfPractices = () => {
       <div className="text-center">
         <SectionHeading heading="Area of Practices" />
       </div>
-      <div className="flex flex-wrap justify-center items-center md:grid grid-cols-3 gap-8 my-28">
+      <div className="flex flex-wrap justify-center items-center md:grid grid-cols-3 gap-8 py-8 md:py-16 lg:py-24">
         <div className="md:col-span-2 relative ">
           <img
             src={businessLaw}

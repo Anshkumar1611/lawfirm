@@ -6,16 +6,21 @@ import Rounded from "../common/buttons/Rounded";
 
 const HeroSection = () => {
   return (
-    <div className="bg-black px-8 md:px-16 lg:px-36 py-14 " id="home">
+    <div
+      className="bg-black px-8 md:px-16 lg:px-36 py-4 md:py-8 lg:py-14 "
+      id="home"
+    >
       <div className="flex flex-col items-center lg:flex lg:flex-row lg:items-center justify-between">
         <div className="basis-1/2">
-          <div className="text-5xl md:text-6xl font-bold my-8 ">
+          <div className="text-5xl md:text-6xl font-bold my-2 md:my-4 lg:my-8 ">
             {heroHeading1}
           </div>
-          <div className="text-5xl md:text-6xl font-bold my-8">
+          <div className="text-5xl md:text-6xl font-bold my-2 md:my-4 lg:my-8">
             {heroHeading2}
           </div>
-          <p className="text-lg text-white opacity-30 my-8">{heroDescription}</p>
+          <p className="text-lg text-white opacity-30 my-8">
+            {heroDescription}
+          </p>
           <div className="bg-gray flex flex-row justify-between items-center rounded-full gap-2 md:w-9/12 px-2">
             <div className="flex gap-2 flex-1 items-center p-1 md:p-6">
               <MdEmail className="text-gray-500 text-lg " />
